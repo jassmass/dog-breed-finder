@@ -1,58 +1,136 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Dog breed guesser</title>
+
+<head> 
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto?query=roboto">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Merriweather?query=me#standard-styles">
+
+    <link rel="stylesheet" href="index-style.css">
+    <title>Dog breed finder</title>
   </head>
 
-  <body>
+<body class="wrapper">
+    
+    <div class="navigation-bar">
+        <a href="index.html" class="logo">Dog breed finder</a>
+        <div class="navigation-items">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
 
-    <div width="100%" height="100vh">
-      <img src="hero-image.jpg" alt="hi five dog" width="100%" height="25%" id="hero-image" />
+                <li> 
+                    <a href="breed-finder.html">Finder</a>
+                </li>
+            </ul>
+        </div>
     </div>
-
-    <div>
-      <h4 id="caption-welcome">Welcome!</h4>
-      <h1 id="header">What breed is that dog?</h1>
-
-      <p id="paragraph">
-        Identify a dog's breed in just a few second. Upload a photo or take a
-        picture with your phone to try it.
-      </p>
-    </div>
-
-    <div>
-      <img src="placeholder.png" alt="placeholder" id="placeholder-image"/> <br />
-    </div>
-
-    <br />
-
-    <div>
-       <form >
-        <input type="file" id="input-file">
-        <input type="submit" value="Identify" id="submit-button">
-    </form>
-    </div>
-
-    <div id="results">
-
-      <div id="result">
-        <h4 id="dog-bread"> Malteser </h4>
-        <p id="probability"> 96% </p4>
-      </div>
-
-      <div id="result">
-        <h4 id="dog-bread"> Pooddle </h4>
-        <p id="probability"> 47% </p4>
-      </div>
-      
-      <div id="result">
-        <h4 id="dog-bread"> Shih Tzu </h4>
-        <p id="probability"> 16% </p4>
-      </div>
-
-    </div>
-   
+    
+        <div class="hero">
+            <div class="hero-info-container">
+            <h1 class="hero-title">Dog Breed Finder</h1>  
+            <p class="hero-description">Identify a dog's breed, learn about its temperament, find similar dogs, and more.</p>
+            <button class="hero-button">Find the breed</button>
+            </div>
+            <div class="hero-image-container">
+            <img src="hero-image-green.png" alt="brown-dog" >
+            </div>
+        </div>
         
-  
-  </body>
+       <div class="cards-wrapper">
+            <div class="content-cards-row">
+                <div class="content-card">
+                    <p class="content-card-name">Toy poodle</p>
+                    <img src="poodle.jpg" alt="red poodle" class="card-image">
+                    <ul class="breed-caracterics">
+                        <li> Hypoallergenic: Yes</li>
+                        <li>Life expectancy: 12 – 15 years </li>
+                        <li>Colors: Black, White, Apricot, Cream</li>
+                        <li>Origin: France, Germany</li>
+                        <li>Height: Toy Poodle: 24 – 28 cm</li>
+                        <li>Temperament: Intelligent, Alert, Active, Trainable</li>
+                    </ul>
+                </div>
+
+                <div class="content-card">
+                    <p class="content-card-name middle-card">Toy poodle</p>
+                    <img src="poodle.jpg" alt="red poodle" class="card-image">
+                    <ul class="breed-caracterics">
+                        <li> Hypoallergenic: Yes</li>
+                        <li>Life expectancy: 12 – 15 years </li>
+                        <li>Colors: Black, White, Apricot, Cream</li>
+                        <li>Origin: France, Germany</li>
+                        <li>Height: Toy Poodle: 24 – 28 cm</li>
+                        <li>Temperament: Intelligent, Alert, Active, Trainable</li>
+                    </ul>
+                </div>
+
+                <div class="content-card">
+                    <p class="content-card-name">Toy poodle</p>
+                    <img src="poodle.jpg" alt="red poodle" class="card-image">
+                    <ul class="breed-caracterics">
+                        <li> Hypoallergenic: Yes</li>
+                        <li>Life expectancy: 12 – 15 years </li>
+                        <li>Colors: Black, White, Apricot, Cream</li>
+                        <li>Origin: France, Germany</li>
+                        <li>Height: Toy Poodle: 24 – 28 cm</li>
+                        <li>Temperament: Intelligent, Alert, Active, Trainable</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content-cards-row">
+                <div class="content-card">
+                    <p class="content-card-name">Toy poodle</p>
+                    <img src="poodle.jpg" alt="red poodle" class="card-image">
+                    <ul class="breed-caracterics">
+                        <li> Hypoallergenic: Yes</li>
+                        <li>Life expectancy: 12 – 15 years </li>
+                        <li>Colors: Black, White, Apricot, Cream</li>
+                        <li>Origin: France, Germany</li>
+                        <li>Height: Toy Poodle: 24 – 28 cm</li>
+                        <li>Temperament: Intelligent, Alert, Active, Trainable</li>
+                    </ul>
+                </div>
+
+                <div class="content-card">
+                    <p class="content-card-name">Toy poodle</p>
+                    <img src="poodle.jpg" alt="red poodle" class="card-image">
+                    <ul class="breed-caracterics">
+                        <li> Hypoallergenic: Yes</li>
+                        <li>Life expectancy: 12 – 15 years </li>
+                        <li>Colors: Black, White, Apricot, Cream</li>
+                        <li>Origin: France, Germany</li>
+                        <li>Height: Toy Poodle: 24 – 28 cm</li>
+                        <li>Temperament: Intelligent, Alert, Active, Trainable</li>
+                    </ul>
+                </div>
+
+                <div class="content-card">
+                    <p class="content-card-name">Toy poodle</p>
+                    <img src="poodle.jpg" alt="red poodle" class="card-image">
+                    <ul class="breed-caracterics">
+                        <li> Hypoallergenic: Yes</li>
+                        <li>Life expectancy: 12 – 15 years </li>
+                        <li>Colors: Black, White, Apricot, Cream</li>
+                        <li>Origin: France, Germany</li>
+                        <li>Height: Toy Poodle: 24 – 28 cm</li>
+                        <li>Temperament: Intelligent, Alert, Active, Trainable</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    <div class="footer">
+        <div>
+            <a href="index.html" class="logo">Dog breed finder</a>
+            <a href="index.html">Home</a>
+            <a href="breed-finder.html">Finder</a>
+        </div>
+       
+        <p>© 2021 Created by Jasminka Masal</p>
+    </div>
+
+</body>
 </html>
+

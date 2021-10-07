@@ -1,0 +1,75 @@
+.navigation-bar {
+  display: flex;
+  border-radius: 0 0 24px 24px;
+  box-shadow: 0px 4px 32px rgb(0 60 52 / 16%);
+  height: 72px;
+  min-height: 72px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  padding-top: 0px;
+  padding-right: 24px;
+  padding-bottom: 0px;
+  padding-left: 24px;
+}
+.hero {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  max-height: 350px;
+  align-items: center;
+}
+
+.hero-info-container {
+  flex:1;
+}
+
+.hero-image-container {
+  max-height: 350px;
+  flex:1;
+}
+
+.hero-image-container img {
+  display: block;
+  height: auto;
+  max-height: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper {
+  display: grid;
+  margin: 0px;
+  font-family: Roboto, sans-serif;
+}
+
+.logo {
+  
+}
+
+ul { 
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+li { 
+  float: left;
+  margin-left: 16px;
+}
+li a {
+  border-style:solid;
+  border-width: 1px;
+  border-color: rgb(0, 60, 52);
+  border-radius: 18px;
+  display: block;
+  color:rgb(0, 60, 52);
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(0, 60, 52);
+  color:#fff;
+  border-radius: 18px;
+}
