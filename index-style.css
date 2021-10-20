@@ -36,11 +36,11 @@
     flex:1;
 }
 .hero-title {
-  font-family: Merriweather;
   font-size: 48px;
   color: #003c34;
   margin-bottom: 48px;
 }
+
 .hero-description{
   max-width: 500px;
   font-size:20px;
@@ -59,6 +59,7 @@
     max-height: inherit;
     margin-left: auto;
 }
+
 .hero-button{
   background-color: #003c34;
   border: none;
@@ -124,6 +125,9 @@
   background-color: #003c34;
   color: #ffffff;
   overflow-wrap: break-word;
+  line-height: 1.33;
+  padding-left: 24px;
+  margin: 0px;
 }
 
 .breed-caracterics {
@@ -164,17 +168,18 @@
   display: flex;
 }
 
-ul { 
+.navigation-bar-list { 
     list-style-type: none;
     padding: 0;
     overflow: hidden;
     background-color: #fff;
   }
-  li { 
+  .navigation-bar-list-item { 
     float: left;
     margin-left: 16px;
-}
-  li a {
+  }
+
+  .navigation-bar-list-item a {
     border-style:solid;
     border-width: 1px;
     border-color: rgb(0, 60, 52);
@@ -195,8 +200,17 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 24px;
-  
   }
+
+  .footer-left{
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-right {
+    color: rgb(0, 60, 52);
+  }
+  
   .footer a{
     margin-right: 48px;
   }
