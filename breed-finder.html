@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head> 
+    <!-- Load TensorFlow.js. This is required to use MobileNet. -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.1"> </script>
+    <!-- Load the MobileNet model. -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"> </script>
     <link rel="stylesheet" href="breed-finder-style.css">
+    <script src="main.js"></script>
     <title>Dog breed finder</title>
   </head>
 
@@ -34,32 +39,30 @@
 
     <div class="main-container">
       <div class="container-1024">
-        <img src="placeholder-dog.png" alt="placeholder" class="placeholder-image"/> <br />
+        <img src="placeholder-dog.png" alt="placeholder" class="placeholder-image" id="placeholder-image"/> <br />
         <br />
   
-        <div class="buttons">
-           <form class="buttons-form">
-            <label for="input-file" class="input-file-label">Upload image</label>
-            <input type="file" id="input-file">
-            <p class="no-image-chosen">No image chosen</p>
-          </form>
+        <div class="upload-image-button" id="upload-image-button">
+            <label for="upload-image" class="upload-file-label">Upload image</label>
+            <input type="file" id="upload-image">
+            <p class="no-image-chosen" id="no-image-chosen">No image chosen</p>
         </div>
     
-        <div class="results">
+        <div class="results" id="results">
     
           <div class="result">
-            <h4 class="dog-bread"> Malteser </h4>
-            <p class="probability"> 96% </p4>
+            <h4 class="dog-bread" id="dogBread1">  </h4>
+            <p class="probability" id="probability1"> </p4>
           </div>
     
           <div class="result">
-            <h4 class="dog-bread"> Pooddle </h4>
-            <p class="probability"> 47% </p4>
+            <h4 class="dog-bread" id="dogBread2">  </h4>
+            <p class="probability" id="probability2">  </p4>
           </div>
           
-          <div class="result">
-            <h4 class="dog-bread"> Shih Tzu </h4>
-            <p class="probability"> 16% </p4>
+          <div class="last-result">
+            <h4 class="dog-bread" id="dogBread3">  </h4>
+            <p class="probability" id="probability3">  </p4>
           </div>
     
         </div>
