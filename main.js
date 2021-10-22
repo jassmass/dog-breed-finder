@@ -47,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             dogBread3.innerHTML = '';
             probability3.innerHTML = '';
             clearButton.remove();
+            document.getElementById("results").remove();
         }
 
         //loading tensorflow model
